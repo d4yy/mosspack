@@ -1,0 +1,169 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "moss:moss_title.png",
+            "posX" : 30,
+            "posY" : 30,
+            "width" : 144,
+            "height" : 56,
+            "alignment" : "top_left"
+        }
+		
+    },
+    
+    "buttons":
+    {   
+		
+	    "singleplayer":
+        {
+            "text" : "Singleplayer",
+                "texture" : "moss:button.png",
+            "posX" : 33,
+            "posY" : 100,
+            "width" : 144,
+            "height" : 15,
+			"imageWidth" : 144,
+			"imageHeight" : 15,
+			"hoverTextColor" : 4033085,
+			"alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+                "texture" : "moss:button.png",
+            "posX" : 33,
+            "posY" : 115,
+            "width" : 144,
+            "height" : 15,
+			"imageWidth" : 144,
+			"imageHeight" : 15,
+			"hoverTextColor" : 4033085,
+			"alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+	    "discord":
+        {
+            "text" : "",
+                "texture" : "moss:button_discord.png",
+            "posX" : -63,
+            "posY" : 72,
+            "width" : 32,
+            "height" : 36,
+			"imageWidth" : 32,
+			"imageHeight" : 36,
+			"alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/jKkYVr5"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "Mods",
+                "texture" : "moss:button.png",
+            "posX" : 33,
+            "posY" : 145,
+            "width" : 144,
+            "height" : 15,
+			"imageWidth" : 144,
+			"imageHeight" : 15,
+			"hoverTextColor" : 4033085,
+			"alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Options",
+                "texture" : "moss:button.png",
+            "posX" : 33,
+            "posY" : 130,
+            "width" : 144,
+            "height" : 15,
+			"imageWidth" : 144,
+			"imageHeight" : 15,
+			"hoverTextColor" : 4033085,
+			"alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit Game",
+                "texture" : "moss:button.png",
+            "posX" : 30,
+            "posY" : -30,
+            "width" : 144,
+            "height" : 15,
+			"imageWidth" : 144,
+			"imageHeight" : 15,
+			"hoverTextColor" : 16733525,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"profile":
+		{
+            "text" : "",
+                "texture" : "web:https://minotar.net/helm/#username#/100.png",
+            "posX" : -63,
+            "posY" : 30,
+            "width" : 32,
+            "height" : 32,
+			"imageWidth" : 100,
+			"imageHeight" : 100,
+			"tooltip" : "Switch Account",
+            "alignment" : "top_right",
+            "wrappedButton": 20
+		}
+    },
+    
+    "labels":
+    {   
+        "version":
+        {
+            "text" : "Moss v1.0.0",
+            "posX" : -85,
+            "posY" : -24,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {        
+		"panorama": {
+			"images": "biomesoplenty:textures/gui/title/background/panorama_%c.png",
+			"animate": true,
+			"animationSpeed": 1,
+			"blur": true,
+			"gradient": true
+		}
+    }
+}
