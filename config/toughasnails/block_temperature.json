@@ -38,9 +38,36 @@
   },
   {
     "state": {
-      "block": "biomesoplenty:hot_spring_water",
+      "block": "minecraft:torch",
       "properties": {}
     },
     "temperature": 5.0
+  },
+  {
+    "state": {
+      "block": "primal:hibachi",
+      "properties": {
+		"lit": "true"
+	  }
+    },
+    "temperature": 3.0
+  },
+  {
+    "state": {
+      "block": "primal:kiln_adobe",
+      "properties": {
+		"lit": "true"
+	  }
+    },
+    "temperature": 3.0
+  },
+  {
+    "state": {
+      "block": "primal:smelter",
+      "properties": {
+		"lit": "true"
+	  }
+    },
+    "temperature": 3.0
   }
 ]

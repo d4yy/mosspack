@@ -155,6 +155,25 @@ moreplanets:green vein
 appliedenergistics2:storage_biome
 buildcraftenergy:oil_ocean
 buildcraftenergy:oil_desert
+galacticraftcore:outer space
+galacticraftplanets:outer space 1
+galacticraftplanets:outer space 2
+extraplanets:outer space 3
+extraplanets:outer space 4
+extraplanets:outer space 5
+extraplanets:outer space 6
+extraplanets:outer space 7
+extraplanets:outer space 8
+extraplanets:outer space 9
+extraplanets:outer space 10
+extraplanets:outer space 11
+extraplanets:outer space 12
+galaxyspace:space
+galaxyspace:spacelowplains
+galaxyspace:spacemidplains
+galaxyspace:spacelowhills
+galaxyspace:spacemidhills
+moreplanets:outer space 13
 climaticbiomesjbg:subtropical_forest
 climaticbiomesjbg:tropical_forest
 climaticbiomesjbg:pine_swamp
@@ -183,18 +202,4 @@ climaticbiomesjbg:marsh
 climaticbiomesjbg:temperate_river
 climaticbiomesjbg:subtropical_river
 climaticbiomesjbg:tropical_river
-galacticraftcore:outer space
-galacticraftplanets:outer space 1
-galacticraftplanets:outer space 2
-extraplanets:outer space 3
-extraplanets:outer space 4
-extraplanets:outer space 5
-extraplanets:outer space 6
-extraplanets:outer space 7
-extraplanets:outer space 8
-extraplanets:outer space 9
-extraplanets:outer space 10
-extraplanets:outer space 11
-extraplanets:outer space 12
-moreplanets:outer space 13
 nuclearcraft:nuclear_wasteland
