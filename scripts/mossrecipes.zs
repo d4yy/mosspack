@@ -473,3 +473,14 @@ for i in 0 to length {
 
 print("++ Added "~logRec~" plank recipes");
 
+/* Removes old Laser Block Recipe */
+
+recipes.remove(<securitycraft:laser_block>);
+
+print("-- Removed Laser Block Recipe");
+
+/* Adds new Laser Block Recipe */
+
+recipes.addShaped(<securitycraft:laser_block>, [[<minecraft:stone>, <minecraft:quartz>, <minecraft:stone>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<minecraft:stone>, <minecraft:glass_pane>, <minecraft:stone>]]);
+
+print("-- Added Laser Block Recipe ");
