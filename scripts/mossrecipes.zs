@@ -37,6 +37,27 @@ recipes.addShapeless("bandage_fix", <roughtweaks:bandage>, [<ore:fatAnimal>, <or
 recipes.addShapeless("salve_fix", <roughtweaks:salve>, [<ore:listAllseed>, <ore:plant>, <ore:plant>, <minecraft:bowl>]);
 print("++ Added 2 medical recipes");
 
+/*Removes Gem Armour and Tools*/
+recipes.remove(<projectred-exploration:sapphire_chestplace>);
+recipes.remove(<projectred-exploration:sapphire_helmet>);
+recipes.remove(<projectred-exploration:sapphire_leggings>);
+recipes.remove(<projectred-exploration:sapphire_boots>);
+
+recipes.remove(<projectred-exploration:ruby_helmet>);
+recipes.remove(<projectred-exploration:ruby_chestplate>);
+recipes.remove(<projectred-exploration:ruby_leggings>);
+recipes.remove(<projectred-exploration:ruby_boots>);
+
+recipes.remove(<projectred-exploration:peridot_helmet>);
+recipes.remove(<projectred-exploration:peridot_chestplate>);
+recipes.remove(<projectred-exploration:peridot_leggings>);
+recipes.remove(<projectred-exploration:perodot_boots>);
+
+recipes.remove(<projectred-exploration:ruby_pickaxe>);
+recipes.remove(<projectred-exploration:sapphire_pickaxe>);
+recipes.remove(<projectred-exploration:ruby_pickaxe>);
+
+
 /*Make it possible to get tcon slime*/
 <ore:dyeRed>.add(<minecraft:redstone>);
 recipes.addShapeless("slime_blue", <tconstruct:edible:1>, [<ore:slimeball>, <ore:dyeCyan>]);
