@@ -68,7 +68,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://discord.gg/jKkYVr5"
+                "link" : "https://discord.gg/HPmpKdu"
             }
         },
 		
@@ -148,7 +148,7 @@
     {   
         "version":
         {
-            "text" : "Moss v1.0.0",
+            "text" : "Moss v2.0.0",
             "posX" : -85,
             "posY" : -24,
             "color" : -1,

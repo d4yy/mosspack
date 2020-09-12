@@ -133,28 +133,52 @@ biomesoplenty:fungi_forest
 biomesoplenty:phantasmagoric_inferno
 biomesoplenty:undergarden
 biomesoplenty:visceral_heap
-jeid:error_biome
 moreplanets:diona
-moreplanets:chalos plains
-moreplanets:chalos hills
-moreplanets:slimely wasteland
-moreplanets:infected plains
-moreplanets:infected dead savanna
-moreplanets:infected desert
-moreplanets:infected river
-moreplanets:infected ocean
-moreplanets:infected forest
-moreplanets:infected deep ocean
-moreplanets:infected dead roofed forest
-moreplanets:infected extreme hills
-moreplanets:infected swampland
-moreplanets:infected dead taiga
-moreplanets:infected jungle
-moreplanets:infected ice plains
-moreplanets:green vein
+moreplanets:chalos_plains
+moreplanets:chalos_moutains
+moreplanets:slimely_stream
+moreplanets:infected_plains
+moreplanets:infected_infested_plains
+moreplanets:infected_dead_savanna
+moreplanets:infected_dead_savanna_plateau
+moreplanets:infected_desert
+moreplanets:infected_desert_hills
+moreplanets:infected_river
+moreplanets:infected_frozen_river
+moreplanets:infected_ocean
+moreplanets:infected_forest
+moreplanets:infected_wooded_hills
+moreplanets:infected_deep_ocean
+moreplanets:infected_dead_dark_forest
+moreplanets:infected_mountains
+moreplanets:infected_mountains_edge
+moreplanets:infected_wooded_mountains
+moreplanets:infected_swamp
+moreplanets:infected_taiga
+moreplanets:infected_taiga_hills
+moreplanets:infected_snowy_taiga
+moreplanets:infected_snowy_taiga_hills
+moreplanets:infected_giant_tree_taiga
+moreplanets:infected_giant_tree_taiga_hills
+moreplanets:infected_giant_spruce_taiga
+moreplanets:infected_giant_spruce_taiga_hills
+moreplanets:infected_jungle
+moreplanets:infected_jungle_hills
+moreplanets:infected_jungle_edge
+moreplanets:infected_snowy_tundra
+moreplanets:infected_snowy_mountains
+moreplanets:infected_ice_spikes
+moreplanets:green_vein_fields
+moreplanets:cold_green_vein_moutains
+moreplanets:green_vein_field_shore
+moreplanets:infected_beaches
+moreplanets:infected_stone_shore
+moreplanets:infected_snowy_beach
+moreplanets:infected_badlands
+moreplanets:infected_wooded_badlands_plateau
+moreplanets:infected_badlands_plateau
+jeid:error_biome
 appliedenergistics2:storage_biome
-buildcraftenergy:oil_ocean
-buildcraftenergy:oil_desert
 galacticraftcore:outer space
 galacticraftplanets:outer space 1
 galacticraftplanets:outer space 2
@@ -173,7 +197,7 @@ galaxyspace:spacelowplains
 galaxyspace:spacemidplains
 galaxyspace:spacelowhills
 galaxyspace:spacemidhills
-moreplanets:outer space 13
+asmodeuscore:-=|worldengine|=-
 climaticbiomesjbg:subtropical_forest
 climaticbiomesjbg:tropical_forest
 climaticbiomesjbg:pine_swamp
@@ -203,3 +227,14 @@ climaticbiomesjbg:temperate_river
 climaticbiomesjbg:subtropical_river
 climaticbiomesjbg:tropical_river
 nuclearcraft:nuclear_wasteland
+rats:ratlantis
+tropicraft:tc_tropics_ocean
+tropicraft:tc_tropics_kelp_forest
+tropicraft:tc_tropics
+tropicraft:tc_tropics_rainforest_plains
+tropicraft:tc_tropics_rainforest_hills
+tropicraft:tc_tropics_rainforest_mountains
+tropicraft:tc_tropics_rainforest_island_mountains
+tropicraft:tc_tropics_river
+tropicraft:tc_tropics_beach
+tropicraft:tc_tropics_lake

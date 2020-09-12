@@ -1,8 +1,8 @@
-[13:04:06] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[13:04:06] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[13:04:06] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[13:04:06] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.6, built with Forge 14.23.5.2768
-Forge: 14.23.5.2847
+[18:16:14] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[18:16:14] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[18:16:14] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:16:15] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.6, built with Forge 14.23.5.2768
+Forge: 14.23.5.2854
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -18,34 +18,34 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.6, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.6, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.6, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=2, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=2, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.6, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[13:04:06] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[13:04:06] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[13:04:06] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[13:04:52] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[13:04:52] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[13:04:52] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[13:04:52] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[13:04:53] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[13:04:53] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r844.65§8ms§r
-[13:04:54] [JM-VersionCheck-1/INFO] [VersionCheck$1] Newer version online: JourneyMap 5.5.7.jar for Minecraft 1.12.2 on http://minecraft.curseforge.com/projects/journeymap/files/2844789
-[13:10:41] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[13:10:42] [Client thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\Day\Desktop\MultiMC\instances\Moss\.minecraft\journeymap\data\mp\Moss~Official\waypoints
-[13:10:42] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Day\Desktop\MultiMC\instances\Moss\.minecraft\journeymap\data\mp\Moss~Official\DIM0. Memory: 6804MB total, 2620MB free 
-[13:10:46] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
-[13:10:46] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[13:10:47] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[13:17:25] [Client thread/INFO] [StateTickHandler] daburger17 died at BlockPos{x=-186, y=60, z=197}. Deathpoints enabled: true. Deathpoint created: true
-[13:55:09] [Client thread/INFO] [StateTickHandler] daburger17 died at BlockPos{x=-317, y=33, z=203}. Deathpoints enabled: true. Deathpoint created: true
-[13:57:03] [Client thread/INFO] [StateTickHandler] daburger17 died at BlockPos{x=-315, y=34, z=205}. Deathpoints enabled: true. Deathpoint created: true
-[13:57:12] [Client thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[13:57:13] [Client thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[13:58:53] [Client thread/INFO] [StateTickHandler] daburger17 died at BlockPos{x=-315, y=34, z=205}. Deathpoints enabled: true. Deathpoint created: true
-[14:02:01] [Client thread/INFO] [StateTickHandler] daburger17 died at BlockPos{x=-315, y=34, z=205}. Deathpoints enabled: true. Deathpoint created: true
+[18:16:15] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[18:16:15] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[18:16:15] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[18:18:15] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[18:18:15] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[18:18:15] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: C:\Users\Day\Desktop\MultiMC\instances\Moss%20Staging\.minecraft\mods\journeymap-1.12.2-5.5.6.jar\assets\journeymap\icon\entity
+[18:18:15] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[18:18:15] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[18:18:15] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\Day\Desktop\MultiMC\instances\Moss%20Staging\.minecraft\mods\journeymap-1.12.2-5.5.6.jar\assets\journeymap\theme\flat
+[18:18:16] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[18:18:16] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r711.6§8ms§r
+[18:18:16] [JM-VersionCheck-1/INFO] [VersionCheck$1] Newer version online: JourneyMap 5.5.9.jar for Minecraft 1.12.2 on http://minecraft.curseforge.com/projects/journeymap/files/2880387
+[18:23:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:23:03] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Day\Desktop\MultiMC\instances\Moss Staging\.minecraft\journeymap\data\sp\Staging 3\waypoints
+[18:23:03] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Day\Desktop\MultiMC\instances\Moss Staging\.minecraft\journeymap\data\sp\Staging 3\DIM0. Memory: 7406MB total, 3036MB free 
+[18:23:03] [Netty Local Client IO #0/INFO] [FeatureManager] Feature disabled: RadarPlayers
+[18:23:07] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[18:23:08] [JM-task-4/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
+[18:23:08] [JM-task-4/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[18:45:17] [Client thread/INFO] [StateTickHandler] D4y_ died at BlockPos{x=195, y=63, z=275}. Deathpoints enabled: true. Deathpoint created: true
+[18:47:10] [Client thread/INFO] [StateTickHandler] D4y_ died at BlockPos{x=107, y=63, z=280}. Deathpoints enabled: true. Deathpoint created: true
+[18:53:43] [Client thread/INFO] [StateTickHandler] D4y_ died at BlockPos{x=428, y=14, z=288}. Deathpoints enabled: true. Deathpoint created: true
+[18:58:15] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Day\Desktop\MultiMC\instances\Moss Staging\.minecraft\journeymap\data\sp\Staging 3\DIM0

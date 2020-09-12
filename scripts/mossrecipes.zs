@@ -160,8 +160,6 @@ var logArr = [
 	<biomesoplenty:log_3:5>,
 	<biomesoplenty:log_3:6>,
 	<biomesoplenty:log_3:7>,
-	<extrautils2:ironwood_log:0>,
-	<extrautils2:ironwood_log:1>,
 	<rustic:log>,
 	<rustic:log:1>,
 	<natura:overworld_logs:0>,
@@ -180,14 +178,6 @@ var logArr = [
 	<natura:nether_logs2:15>,
 	<primal:logs>,
 	<primal:logs:1>,
-	<plants2:nether_log:0>,
-	<plants2:nether_log:1>,
-	<plants2:log_0:0>,
-	<plants2:log_0:1>,
-	<plants2:log_0:2>,
-	<plants2:log_0:3>,
-	<plants2:crystal_log:0>,
-	<plants2:crystal_log:1>,
 	<pvj:log_willow>,
 	<pvj:log_mangrove>,
 	<pvj:log_palm>,
@@ -363,8 +353,6 @@ var plankArr = [
 	<biomesoplenty:planks_0:13>,
 	<biomesoplenty:planks_0:14>,
 	<biomesoplenty:planks_0:15>,
-	<extrautils2:ironwood_planks:0>,
-	<extrautils2:ironwood_planks:1>,
 	<rustic:planks>,
 	<rustic:planks:1>,
 	<natura:overworld_planks:0>,
@@ -383,14 +371,6 @@ var plankArr = [
 	<natura:nether_planks:1>,
 	<primal:planks>,
 	<primal:planks:1>, 
-	<plants2:planks:0>,
-	<plants2:planks:1>,
-	<plants2:planks:2>,
-	<plants2:planks:3>,
-	<plants2:planks:4>,
-	<plants2:planks:5>,
-	<plants2:crystal_planks:0>,
-	<plants2:crystal_planks:1>,
 	<pvj:planks_willow>,
 	<pvj:planks_mangrove>,
 	<pvj:planks_palm>,
@@ -423,15 +403,6 @@ var length = logArr.length as int;
 <ore:listAllseed>.add(<harvestcraft:sesameseedsitem>);
 <ore:listAllseed>.add(<harvestcraft:sesameseedsseeditem>);
 <ore:listAllseed>.add(<harvestcraft:sunflowerseedsitem>);
-<ore:listAllseed>.add(<plants2:apocynum_c>);
-<ore:listAllseed>.add(<plants2:amaranthus_h_seeds>);
-<ore:listAllseed>.add(<plants2:okra_seeds>);
-<ore:listAllseed>.add(<plants2:pineapple_seeds>);
-<ore:listAllseed>.add(<immersiveengineering:seed>);
-<ore:listAllseed>.add(<growthcraft_grapes:grape_seed:10>);
-<ore:listAllseed>.add(<growthcraft_grapes:grape_seed:13>);
-<ore:listAllseed>.add(<growthcraft_grapes:grape_seed:14>);
-<ore:listAllseed>.add(<growthcraft_hops:hop_seeds>);
 
 /*Make Plaster and Bandage actually useful*/
 recipes.remove(<roughtweaks:plaster>);
@@ -439,10 +410,26 @@ recipes.remove(<roughtweaks:bandage>);
 recipes.remove(<roughtweaks:salve>);
 print("-- Removed broken medical recipes");
 
+/*Remove various unbalanced items*/
+recipes.remove(<nuclearcraft:rtg_uranium>);
+recipes.remove(<nuclearcraft:rtg_plutonium>);
+recipes.remove(<nuclearcraft:rtg_americium>);
+recipes.remove(<nuclearcraft:rtg_californium>);
+recipes.remove(<galacticraftplanets:atomic_battery>);
+recipes.remove(<weather2:weather_deflector>);
+recipes.remove(<tconstruct:stone_torch>);
+recipes.remove(<tropicraft:tiki_torch>);
+
 recipes.addShapeless("plaster_fix", <roughtweaks:plaster>, [<ore:paper>, <ore:paper>]);
 recipes.addShapeless("bandage_fix", <roughtweaks:bandage>, [<ore:fatAnimal>, <ore:paper>, <ore:paper>, <ore:paper>]);
 recipes.addShapeless("salve_fix", <roughtweaks:salve>, [<ore:listAllseed>, <ore:plant>, <ore:plant>, <minecraft:bowl>]);
 print("++ Added 2 medical recipes");
+
+/*Make it possible to get tcon slime*/
+<ore:dyeRed>.add(<minecraft:redstone>);
+recipes.addShapeless("slime_blue", <tconstruct:edible:1>, [<ore:slimeball>, <ore:dyeCyan>]);
+recipes.addShapeless("slime_purple", <tconstruct:edible:2>, [<ore:slimeball>, <ore:dyeMagenta>]);
+recipes.addShapeless("slime_magma", <tconstruct:edible:4>, [<ore:slimeball>, <ore:dustBlaze>]);
 
 /*Fix primalcore saw oredict*/
 var sawItems = <minecraft:stone> as IIngredient;
