@@ -22,7 +22,7 @@ recipes.remove(<roughtweaks:bandage>);
 recipes.remove(<roughtweaks:salve>);
 print("-- Removed broken medical recipes");
 
-/*Remove various unbalanced items*/
+
 recipes.remove(<nuclearcraft:rtg_uranium>);
 recipes.remove(<nuclearcraft:rtg_plutonium>);
 recipes.remove(<nuclearcraft:rtg_americium>);
@@ -32,10 +32,11 @@ recipes.remove(<weather2:weather_deflector>);
 recipes.remove(<tconstruct:stone_torch>);
 recipes.remove(<tropicraft:tiki_torch>);
 
+/*Remove various unbalanced items*/
 recipes.addShapeless("plaster_fix", <roughtweaks:plaster>, [<ore:paper>, <ore:paper>]);
 recipes.addShapeless("bandage_fix", <roughtweaks:bandage>, [<ore:fatAnimal>, <ore:paper>, <ore:paper>, <ore:paper>]);
 recipes.addShapeless("salve_fix", <roughtweaks:salve>, [<ore:listAllseed>, <ore:plant>, <ore:plant>, <minecraft:bowl>]);
-print("++ Added 2 medical recipes");
+print("-- Added 2 medical recipes");
 
 
 /*Make it possible to get tcon slime*/
