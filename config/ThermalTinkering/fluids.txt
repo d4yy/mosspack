@@ -659,7 +659,7 @@ tungsten                                          (tconstruct:molten_tungsten)  
 titanium                                          (tconstruct:molten_titanium)                                                     = Molten Titanium
 chrome                                            (tconstruct:molten_chrome)                                                       = Molten Chrome
 advancedalloy                                     (tconstruct:molten_advancedalloy)                                                = Molten Advanced Alloy
-redmetal                                          ([no block])                                                                     = fluid.tconstruct.redmetal.name
+redmetal                                          ([no block])                                                                     = Molten Redmetal
 xpjuice                                           ([no block])                                                                     = Liquid XP
 etchacid                                          (pneumaticcraft:fluid.etchacid)                                                  = Etching Acid
 plastic                                           (pneumaticcraft:fluid.plastic)                                                   = Liquid Plastic
