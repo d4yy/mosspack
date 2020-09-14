@@ -52,3 +52,7 @@ print("-- Removed Laser Block Recipe");
 /* Adds new Laser Block Recipe */
 recipes.addShaped(<securitycraft:laser_block>, [[<minecraft:stone>, <minecraft:quartz>, <minecraft:stone>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<minecraft:stone>, <minecraft:glass_pane>, <minecraft:stone>]]);
 print("++ Added Laser Block Recipe ");
+
+/*Satellite Controller*/
+recipes.remove(<planetprogression:satellite_controller>);
+recipes.addShaped(<planetprogression:satellite_controller>, [[<galacticraftcore:basic_item:8>, <galacticraftcore:dishbase>, <galacticraftcore:basic_item:8>],[<galacticraftcore:aluminum_wire:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire:1>], [<galacticraftcore:basic_item:8>, <galacticraftcore:dishbase>, <galacticraftcore:basic_item:8>]]);
