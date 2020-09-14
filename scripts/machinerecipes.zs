@@ -48,3 +48,10 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<tropicraft:azurite>, 50000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<tropicraft:eudialyte>, 50000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<tropicraft:zircon>, 50000);
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////// Compactor /////////////////////////////////////////////////////////////
+
+
+/* Extraplanets */
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier4_items:6>, <extraplanets:tier4_items:5>, 5000);
+
