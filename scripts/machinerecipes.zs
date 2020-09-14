@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.thermalexpansion.NumisticDynamo;
 
-/////Lapidary Calibration////////////////////////////////////////////////////////////////////
+////////////////////// Lapidary Calibration ///////////////////////////////////////////////////////////////////
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items>, 20000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:1>, 20000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<extraplanets:tier11_items:2>, 20000);
@@ -17,10 +17,10 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<appliedenergistics2:material>, 
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<appliedenergistics2:material:1>, 20000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<appliedenergistics2:material:7>, 20000);
 
-/*RFTools dimensional shard*/
+/*RFTools Dimensional Shard*/
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<rftools:dimensional_shard>, 1400000);
 
-/*NuclearCraft gems*/
+/*NuclearCraft Gems*/
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<nuclearcraft:gem:0>, 20000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<nuclearcraft:gem:2>, 20000);
 mods.thermalexpansion.NumisticDynamo.addGemFuel(<nuclearcraft:gem:3>, 20000);
@@ -52,6 +52,6 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<tropicraft:zircon>, 50000);
 ///////////////////// Compactor /////////////////////////////////////////////////////////////
 
 
-/* Extraplanets */
+/*ExtraPlanets*/
 mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier4_items:6>, <extraplanets:tier4_items:5>, 5000);
 
