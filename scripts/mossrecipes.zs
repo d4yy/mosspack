@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-/*seed oredict indexing*/
+/*Seed Oredict Indexing*/
 <ore:listAllseed>.addAll(<ore:seed>);
 <ore:listAllseed>.add(<rustic:grape_stem>);
 <ore:listAllseed>.add(<rustic:apple_seeds>);
@@ -16,13 +16,13 @@ import crafttweaker.item.IIngredient;
 <ore:listAllseed>.add(<harvestcraft:sesameseedsseeditem>);
 <ore:listAllseed>.add(<harvestcraft:sunflowerseedsitem>);
 
-/*Make Plaster and Bandage actually useful*/
+/*Makes Plaster and Bandage actually useful*/
 recipes.remove(<roughtweaks:plaster>);
 recipes.remove(<roughtweaks:bandage>);
 recipes.remove(<roughtweaks:salve>);
 print("-- Removed broken medical recipes");
 
-
+/*Removes various unbalanced items*/
 recipes.remove(<nuclearcraft:rtg_uranium>);
 recipes.remove(<nuclearcraft:rtg_plutonium>);
 recipes.remove(<nuclearcraft:rtg_americium>);
@@ -32,14 +32,14 @@ recipes.remove(<weather2:weather_deflector>);
 recipes.remove(<tconstruct:stone_torch>);
 recipes.remove(<tropicraft:tiki_torch>);
 
-/*Remove various unbalanced items*/
+/*RoughTweaks Fixes*/
 recipes.addShapeless("plaster_fix", <roughtweaks:plaster>, [<ore:paper>, <ore:paper>]);
 recipes.addShapeless("bandage_fix", <roughtweaks:bandage>, [<ore:fatAnimal>, <ore:paper>, <ore:paper>, <ore:paper>]);
 recipes.addShapeless("salve_fix", <roughtweaks:salve>, [<ore:listAllseed>, <ore:plant>, <ore:plant>, <minecraft:bowl>]);
 print("-- Added 2 medical recipes");
 
 
-/*Make it possible to get tcon slime*/
+/*Make it possible to get TC slime*/
 <ore:dyeRed>.add(<minecraft:redstone>);
 recipes.addShapeless("slime_blue", <tconstruct:edible:1>, [<ore:slimeball>, <ore:dyeCyan>]);
 recipes.addShapeless("slime_purple", <tconstruct:edible:2>, [<ore:slimeball>, <ore:dyeMagenta>]);
@@ -53,6 +53,6 @@ print("-- Removed Laser Block Recipe");
 recipes.addShaped(<securitycraft:laser_block>, [[<minecraft:stone>, <minecraft:quartz>, <minecraft:stone>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<minecraft:stone>, <minecraft:glass_pane>, <minecraft:stone>]]);
 print("++ Added Laser Block Recipe ");
 
-/*Satellite Controller*/
+/*Satellite Controller Recipe Change*/
 recipes.remove(<planetprogression:satellite_controller>);
 recipes.addShaped(<planetprogression:satellite_controller>, [[<galacticraftcore:basic_item:8>, <galacticraftcore:dishbase>, <galacticraftcore:basic_item:8>],[<galacticraftcore:aluminum_wire:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire:1>], [<galacticraftcore:basic_item:8>, <galacticraftcore:dishbase>, <galacticraftcore:basic_item:8>]]);
