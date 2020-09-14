@@ -39,7 +39,7 @@ recipes.addShapeless("salve_fix", <roughtweaks:salve>, [<ore:listAllseed>, <ore:
 print("-- Added 2 medical recipes");
 
 
-/*Make it possible to get TC slime*/
+/*Makes it possible to get TC slime*/
 <ore:dyeRed>.add(<minecraft:redstone>);
 recipes.addShapeless("slime_blue", <tconstruct:edible:1>, [<ore:slimeball>, <ore:dyeCyan>]);
 recipes.addShapeless("slime_purple", <tconstruct:edible:2>, [<ore:slimeball>, <ore:dyeMagenta>]);
