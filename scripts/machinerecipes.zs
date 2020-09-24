@@ -53,5 +53,14 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<tropicraft:zircon>, 50000);
 
 
 /*ExtraPlanets*/
+
+val plateCarbon = <ore:plateCarbon>;
+plateCarbon.remove(<techguns:itemshared:53>);
 mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier4_items:6>, <extraplanets:tier4_items:5>, 5000);
 
+
+
+/////////////////// Redstone Furnace ////////////////////////////////////////////////////////
+
+//mods.thermalexpansion.RedstoneFurnace.addRecipe(IItemStack output, IItemStack input, int energy);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:log>, <minecraft:coal:1>, 3600);
