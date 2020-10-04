@@ -1,0 +1,19 @@
+{
+	title: "Crafting Time",
+	x: -3.0d,
+	y: -7.5d,
+	text: [
+		"Make a Crafting Table"
+	],
+	dependencies: [
+		"da97d2b8"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "1823ed8c",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Your First Logs",
+	icon: "minecraft:log",
+	x: -8.0d,
+	y: -8.0d,
+	text: [
+		"Use your newly aquired flint hatchet to collect some wood"
+	],
+	dependencies: [
+		"e11f27ef"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "095cfd72",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -10.0d,
+	y: -8.0d,
+	dependencies: [
+		"ddb2fb61",
+		"5f9fe9ec"
+	],
+	tasks: [{
+		uid: "952dd012",
+		type: "item",
+		items: [{
+			item: "primal:flint_hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

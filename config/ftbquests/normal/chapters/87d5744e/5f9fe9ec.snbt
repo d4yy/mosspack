@@ -1,0 +1,25 @@
+{
+	title: "Plant Fibers",
+	x: -12.0d,
+	y: -7.5d,
+	text: [
+		"To create your first pickaxe you'll need to craft your plant fibers into plant twine"
+	],
+	dependencies: [
+		"9d85d89b"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "5724dbc3",
+		type: "item",
+		items: [{
+			item: "primal:plant_fiber"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "375d2ab2",
+		type: "xp",
+		xp: 100
+	}]
+}

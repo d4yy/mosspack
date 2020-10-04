@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -9.0d,
+	text: [
+		"Hit flint on stone to get flaked flint"
+	],
+	dependencies: [
+		"9d85d89b"
+	],
+	tasks: [{
+		uid: "dd19e036",
+		type: "item",
+		items: [{
+			item: "primal:flint_knapp"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Walk the Plank",
+	x: -3.0d,
+	y: -9.0d,
+	text: [
+		"Craft logs with your new Hand Saw in the 2x2 grid to make planks"
+	],
+	dependencies: [
+		"cebce55b"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "89346926",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}]
+	}]
+}
