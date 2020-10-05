@@ -1,0 +1,26 @@
+{
+	title: "Did Somebody Smell that?",
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"d7ac1e1c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3da20ef4",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "b7b83dd5",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	},
+	{
+		uid: "00cb7920",
+		type: "toast"
+	}]
+}
