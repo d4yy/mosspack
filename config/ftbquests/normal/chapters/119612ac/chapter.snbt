@@ -1,7 +1,0 @@
-{
-	title: "Tinkering",
-	icon: "tconstruct:seared 1 3",
-	always_invisible: false,
-	group: -2016054194,
-	default_quest_shape: ""
-}

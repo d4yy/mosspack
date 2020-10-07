@@ -8,7 +8,6 @@
 	dependencies: [
 		"cebce55b"
 	],
-	hide: true,
 	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "89346926",
