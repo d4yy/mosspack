@@ -1,0 +1,56 @@
+{
+	title: "I'm MELTING!!!!!",
+	x: 3.0d,
+	y: -13.5d,
+	text: [
+		"Make a melter setup",
+		"Note: Add lava to the seared tank to power the melter",
+		"Note 2: this will also create pollution so be careful"
+	],
+	dependencies: [
+		"4fbc4201"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4f99c675",
+		type: "item",
+		items: [{
+			item: "tcomplement:melter"
+		}]
+	},
+	{
+		uid: "3cf55099",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c0c0d88a",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "f7974ccc",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}],
+	rewards: [{
+		uid: "2881df75",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 8
+	},
+	{
+		uid: "ef017173",
+		type: "item",
+		item: "tconstruct:ingots 1 5",
+		count: 8
+	}]
+}

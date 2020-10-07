@@ -1,0 +1,20 @@
+{
+	title: "Crafting Station",
+	x: -2.0d,
+	y: -7.5d,
+	text: [
+		"With the Crafting Station your items will stay in the crafting table"
+	],
+	dependencies: [
+		"ae391d7f"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "8bb357da",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: -4.0d,
+	dependencies: [
+		"f6f91dea"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d776b8e",
+		type: "checkmark",
+		title: "Tinkers Tools"
+	}]
+}

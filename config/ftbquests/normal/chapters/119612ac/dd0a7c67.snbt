@@ -1,0 +1,59 @@
+{
+	title: "Cast your Soul",
+	x: 3.0d,
+	y: -12.0d,
+	text: [
+		"Use your stone tool parts on the casting table with molten Brass to make casts"
+	],
+	dependencies: [
+		"7f71747a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98f8b397",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "db2e0902",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	},
+	{
+		uid: "2132ce09",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "95cad1b7",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "47b9f5f6",
+		type: "item",
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "paper"
+			}
+		}
+	}]
+}

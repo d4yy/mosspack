@@ -8,6 +8,7 @@
 	dependencies: [
 		"da97d2b8"
 	],
+	hide: true,
 	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "1823ed8c",
