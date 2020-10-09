@@ -38,3 +38,13 @@ mods.thermalexpansion.NumisticDynamo.addGemFuel(<quark:biotite>, 40000);
 
 //mods.thermalexpansion.RedstoneFurnace.addRecipe(IItemStack output, IItemStack input, int energy);
 mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:log>, <minecraft:coal:1>, 3600);
+
+/////////////////// Pulverizer ////////////////////////////////////////////////////////
+
+
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_skystone_crushed>, <appliedenergistics2:sky_stone_block>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_netherrack_crushed>, <minecraft:netherrack>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_diorite_crushed>, <minecraft:stone:3>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_andesite_crushed>, <minecraft:stone:5>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_granite_crushed>, <minecraft:stone:1>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>, 1500);
