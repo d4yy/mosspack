@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -6.5d,
+	text: [
+		"Craft a Resonant Upgrade Kit"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0395bed3"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "68204f89",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6c7081f9",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 3",
+		count: 3
+	}]
+}

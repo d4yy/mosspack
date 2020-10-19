@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -6.5d,
+	shape: "circle",
+	hide_dependency_lines: true,
+	dependencies: [
+		"0395bed3"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "7ea4637c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9e753d3b",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 2",
+		count: 3
+	}]
+}
