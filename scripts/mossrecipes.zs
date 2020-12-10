@@ -27,10 +27,8 @@ recipes.remove(<nuclearcraft:rtg_uranium>);
 recipes.remove(<nuclearcraft:rtg_plutonium>);
 recipes.remove(<nuclearcraft:rtg_americium>);
 recipes.remove(<nuclearcraft:rtg_californium>);
-recipes.remove(<galacticraftplanets:atomic_battery>);
 recipes.remove(<weather2:weather_deflector>);
 recipes.remove(<tconstruct:stone_torch>);
-recipes.remove(<tropicraft:tiki_torch>);
 
 /*RoughTweaks Fixes*/
 recipes.addShapeless("plaster_fix", <roughtweaks:plaster>, [<ore:paper>, <ore:paper>]);
@@ -52,7 +50,3 @@ print("-- Removed Laser Block Recipe");
 /* Adds new Laser Block Recipe */
 recipes.addShaped(<securitycraft:laser_block>, [[<minecraft:stone>, <minecraft:quartz>, <minecraft:stone>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<minecraft:stone>, <minecraft:glass_pane>, <minecraft:stone>]]);
 print("++ Added Laser Block Recipe ");
-
-/*Satellite Controller Recipe Change*/
-recipes.remove(<planetprogression:satellite_controller>);
-recipes.addShaped(<planetprogression:satellite_controller>, [[<galacticraftcore:basic_item:8>, <galacticraftcore:dishbase>, <galacticraftcore:basic_item:8>],[<galacticraftcore:aluminum_wire:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire:1>], [<galacticraftcore:basic_item:8>, <galacticraftcore:dishbase>, <galacticraftcore:basic_item:8>]]);

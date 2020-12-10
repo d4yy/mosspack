@@ -1,0 +1,67 @@
+{
+	title: "Tinker's Workstations",
+	x: -2.5d,
+	y: -13.5d,
+	dependencies: [
+		"76f2482a"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9c6d4bc2",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "36b2c96a",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "8b61e9b8",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "44dd8c53",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "10a5d352",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "1035aced",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 16
+	}]
+}

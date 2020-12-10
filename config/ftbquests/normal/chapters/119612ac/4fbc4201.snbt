@@ -1,0 +1,17 @@
+{
+	title: "Smelting Groot",
+	x: 1.0d,
+	y: -13.5d,
+	dependencies: [
+		"df5122fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "10a90015",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 31L
+	}]
+}

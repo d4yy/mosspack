@@ -1,0 +1,65 @@
+{
+	x: -3.0d,
+	y: -8.5d,
+	text: [
+		"Create a Pulverizer and Redstone Furnace for some early game Ore Doubling"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7730b39f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d581f741",
+		type: "checkmark",
+		title: "Ore Doubling",
+		icon: "thermalfoundation:material"
+	},
+	{
+		uid: "ef060e1a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	},
+	{
+		uid: "e4861574",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}],
+		consume_items: false,
+		only_from_crafting: true
+	}]
+}

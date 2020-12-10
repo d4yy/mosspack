@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: -8.5d,
+	shape: "hexagon",
+	text: [
+		"This Quest Line Requires you to craft Upgrades for Your machines",
+		"Each Upgrade will make your machines faster and allow you to install modules known as Augments"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7730b39f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d7ba30b4",
+		type: "checkmark",
+		title: "Upgrading",
+		icon: "thermalfoundation:upgrade 1 3"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	text: [
+		"Collect Some Cobblestone"
+	],
+	dependencies: [
+		"00c2cc61"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81b1b4d4",
+		type: "item",
+		title: "Cobble",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ac15a628",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 48
+	}]
+}
