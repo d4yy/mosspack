@@ -1,0 +1,24 @@
+{
+	title: "Diggy Diggy Hole",
+	x: -4.0d,
+	y: -6.0d,
+	dependencies: [
+		"ae391d7f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d1346f0",
+		type: "item",
+		items: [{
+			item: "primal:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b186e19",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	}]
+}

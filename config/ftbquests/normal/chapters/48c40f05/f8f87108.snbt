@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -7.5d,
+	text: [
+		"Craft a Reinforced Upgrade Kit"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0395bed3"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "c5d9b3d5",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0f225b6f",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 1",
+		count: 3
+	}]
+}

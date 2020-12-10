@@ -1,0 +1,50 @@
+{
+	title: "Inductination",
+	x: -4.0d,
+	y: -6.5d,
+	shape: "circle",
+	text: [
+		"Craft an Induction Smelter"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7730b39f"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a843b31d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}],
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "c8217396",
+		type: "item",
+		item: "minecraft:sand",
+		count: 64
+	},
+	{
+		uid: "57e3738d",
+		type: "item",
+		item: "thermalfoundation:material 1 865",
+		count: 16
+	}]
+}

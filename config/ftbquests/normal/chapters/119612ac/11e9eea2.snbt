@@ -1,0 +1,72 @@
+{
+	x: -2.5d,
+	y: -12.0d,
+	text: [
+		"Create some Patterns for a Pickaxe",
+		"Note: Do not use your stone parts, you'll need these later"
+	],
+	dependencies: [
+		"f4f22240"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "dfc35a1f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "a4222e3b",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "3c08d15f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fa2abf70",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		uid: "34dc350d",
+		type: "item",
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		uid: "91b8f5a9",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stone"
+			}
+		}
+	}]
+}

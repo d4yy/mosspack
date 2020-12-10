@@ -1,0 +1,68 @@
+{
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"harvest",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "crude",
+				color: -9868951,
+				level: 3,
+				crude1: 1b,
+				crude2: 1b
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"crude1",
+				"crude2",
+				"toolleveling"
+			]
+		}
+	},
+	x: -4.5d,
+	y: -4.0d,
+	dependencies: [
+		"f6f91dea"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d776b8e",
+		type: "checkmark",
+		title: "Tinkers Tools"
+	}]
+}
