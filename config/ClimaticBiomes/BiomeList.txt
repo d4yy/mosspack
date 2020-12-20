@@ -164,6 +164,7 @@ climaticbiomesjbg:temperate_river
 climaticbiomesjbg:subtropical_river
 climaticbiomesjbg:tropical_river
 nuclearcraft:nuclear_wasteland
+rockhounding_surface:white_sands
 advancedrocketry:moon
 advancedrocketry:alien forest
 advancedrocketry:hotdryrock
