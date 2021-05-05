@@ -50,6 +50,22 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickmeteoriciron;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickdesh;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotTitanium</oreDict>
 		</input>
 		<output>
@@ -90,6 +106,14 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotPalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickpalladium;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotSilver</oreDict>
 		</input>
 		<output>
@@ -102,6 +126,14 @@
 		</input>
 		<output>
 			<itemStack>libvulpes:productrod;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCrystal</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcrystal;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -146,6 +178,14 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticktungsten;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotLead</oreDict>
 		</input>
 		<output>
@@ -154,10 +194,26 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotSilicon</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_sticksilicon;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotTitaniumAluminide</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productrod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickdarkiron;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -182,6 +238,14 @@
 		</input>
 		<output>
 			<itemStack>libvulpes:productrod;2;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickcarbon;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -214,6 +278,14 @@
 		</input>
 		<output>
 			<itemStack>jaopca:item_sticknickel;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMercury</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_stickmercury;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">

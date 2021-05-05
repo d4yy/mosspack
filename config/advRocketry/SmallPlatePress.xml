@@ -186,10 +186,42 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecarbon;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockCobalt</oreDict>
 		</input>
 		<output>
 			<itemStack>jaopca:item_platecobalt;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockCrystal</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecrystal;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platedarkiron;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platedesh;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -210,10 +242,34 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockMercury</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemercury;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemeteoriciron;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockOsmium</oreDict>
 		</input>
 		<output>
 			<itemStack>jaopca:item_plateosmium;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>blockPalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platepalladium;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -226,6 +282,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platetungsten;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>blockUranium</oreDict>
 		</input>
 		<output>
@@ -234,10 +298,18 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>blockZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platezinc;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreArdite</oreDict>
 		</input>
 		<output>
-			<itemStack>exnihilocreatio:item_ore_ardite;2;2</itemStack>
+			<itemStack>jaopca:item_dustardite;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -250,10 +322,42 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>oreCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustcarbon;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreCobalt</oreDict>
 		</input>
 		<output>
-			<itemStack>exnihilocreatio:item_ore_cobalt;2;2</itemStack>
+			<itemStack>jaopca:item_dustcobalt;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreCrystal</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustcrystal;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreDarkIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustdarkiron;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreDesh</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustdesh;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -282,6 +386,22 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>oreMercury</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustmercury;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>oreMeteoricIron</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustmeteoriciron;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreMithril</oreDict>
 		</input>
 		<output>
@@ -302,6 +422,14 @@
 		</input>
 		<output>
 			<itemStack>mekanism:dust;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
+			<oreDict>orePalladium</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dustpalladium;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -330,6 +458,14 @@
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
 		<input>
+			<oreDict>oreTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>jaopca:item_dusttungsten;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="0" power ="0">
+		<input>
 			<oreDict>oreUranium</oreDict>
 		</input>
 		<output>
@@ -341,7 +477,7 @@
 			<oreDict>oreZinc</oreDict>
 		</input>
 		<output>
-			<itemStack>primal:zinc_dust;2</itemStack>
+			<itemStack>jaopca:item_dustzinc;2</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

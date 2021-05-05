@@ -1,0 +1,6 @@
+
+{
+  "Name": "primal:canis_campestris",
+  "Registry ID": "primal:canis_campestris",
+  "Class": "nmd.primal.core.common.entities.living.EntityCanisCampestris"
+}

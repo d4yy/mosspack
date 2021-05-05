@@ -1,0 +1,195 @@
+
+{
+  "ID": 153,
+  "Name": "Nuclear Wasteland",
+  "Resource Location": "nuclearcraft:nuclear_wasteland",
+  "Class": "nc.worldgen.biome.BiomeNuclearWasteland",
+  "Root Height": 0.12,
+  "Height Variation": 0.02,
+  "Top Block": "nuclearcraft:dry_earth",
+  "Filler Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "10046464",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 10046464,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SAVANNA",
+    "SPARSE",
+    "PLAINS",
+    "HOT",
+    "WASTELAND",
+    "DEAD",
+    "DRY"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      5
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "nc.entity.EntityFeralGhoul",
+      "Weight": 32767,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityHummingbird",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityMagpie",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPeafowl",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityPigeon",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityCardinal",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityBluejay",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.exoticbirds.entity.Birds.EntityRobin",
+      "Weight": 12,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "nc.entity.EntityFeralGhoul",
+      "Weight": 32767,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.neutral.EntityGhost",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntityShade",
+      "Weight": 55,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntitySkeletalKnight",
+      "Weight": 45,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntityGoon",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityClam",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntitySnail",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityFly",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityFirefly",
+      "Weight": 150,
+      "Min Group Count": 4,
+      "Max Group Count": 9
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntitySmallSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "TROPICAL": [
+      5
+    ],
+    "SAVANNA": [
+      5
+    ],
+    "HOT_DESERT": [
+      5
+    ],
+    "WASTELAND": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

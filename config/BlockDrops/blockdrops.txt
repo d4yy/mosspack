@@ -5385,21 +5385,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   },
   {
-    "name": "securitycraft:reinforced_mycelium",
-    "meta": 0,
-    "length": 1,
-    "name0": "minecraft:dirt",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 100.0,
-    "2chance0": 100.0,
-    "3chance0": 100.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
-  },
-  {
     "name": "forestry:resource_storage",
     "meta": 1,
     "length": 1,
@@ -6228,21 +6213,6 @@
     "1pair0": "{\n  \"left\": 2,\n  \"right\": 12\n}",
     "2pair0": "{\n  \"left\": 2,\n  \"right\": 18\n}",
     "3pair0": "{\n  \"left\": 2,\n  \"right\": 24\n}"
-  },
-  {
-    "name": "securitycraft:reinforced_dirt",
-    "meta": 2,
-    "length": 1,
-    "name0": "securitycraft:reinforced_dirt",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 100.0,
-    "2chance0": 100.0,
-    "3chance0": 100.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
     "name": "forestry:ash_block_1",

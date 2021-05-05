@@ -142,15 +142,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotObsidianSteel</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>techguns:itemshared;1;51</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotCobalt</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -165,6 +156,15 @@
 		</input>
 		<output>
 			<itemStack>thermalfoundation:material;1;357</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMeteoricIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemeteoriciron</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -205,6 +205,15 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotTungsten</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platetungsten</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotLead</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -236,7 +245,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>primal:carbon_plate</itemStack>
+			<itemStack>jaopca:item_platecarbon</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -250,20 +259,20 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotZinc</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>railcraft:plate;1;10</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotOsmium</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
 			<itemStack>jaopca:item_plateosmium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platezinc</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -286,15 +295,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotAdamant</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>primal:adamant_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotConstantan</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -313,38 +313,20 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotVanadium</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>primal:vanadium_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotTamahagane</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>primal:tamahagane_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotCrudeIron</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>primal:crude_iron_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotBoron</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
 			<itemStack>jaopca:item_plateboron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotDesh</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platedesh</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -403,6 +385,15 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotPalladium</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platepalladium</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotSilver</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -412,29 +403,20 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotCrystal</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platecrystal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotThorium</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
 			<itemStack>jaopca:item_platethorium</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotWootz</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>primal:wootz_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
-			<oreDict>ingotBrass</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>railcraft:plate;1;11</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -484,6 +466,15 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ingotDarkIron</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platedarkiron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>ingotArdite</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
@@ -493,20 +484,20 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotShibuichi</oreDict>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>primal:shibuichi_plate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotInvar</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
 			<itemStack>thermalfoundation:material;1;354</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMercury</oreDict>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>jaopca:item_platemercury</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
