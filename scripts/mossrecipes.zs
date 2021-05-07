@@ -42,11 +42,3 @@ print("-- Added 2 medical recipes");
 recipes.addShapeless("slime_blue", <tconstruct:edible:1>, [<ore:slimeball>, <ore:dyeCyan>]);
 recipes.addShapeless("slime_purple", <tconstruct:edible:2>, [<ore:slimeball>, <ore:dyeMagenta>]);
 recipes.addShapeless("slime_magma", <tconstruct:edible:4>, [<ore:slimeball>, <ore:dustBlaze>]);
-
-/* Removes old Laser Block Recipe */
-recipes.remove(<securitycraft:laser_block>);
-print("-- Removed Laser Block Recipe");
-
-/* Adds new Laser Block Recipe */
-recipes.addShaped(<securitycraft:laser_block>, [[<minecraft:stone>, <minecraft:quartz>, <minecraft:stone>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<minecraft:stone>, <minecraft:glass_pane>, <minecraft:stone>]]);
-print("++ Added Laser Block Recipe ");
