@@ -1,6 +1,0 @@
-
-{
-  "Name": "primal:creeper_nether",
-  "Registry ID": "primal:creeper_nether",
-  "Class": "nmd.primal.core.common.entities.living.EntityNetherCreeper"
-}

@@ -177,4 +177,13 @@ advancedrocketry:oceanspires
 advancedrocketry:moondark
 advancedrocketry:volcanic
 advancedrocketry:volcanicbarren
-biometweaker:luna
+tropicraft:tc_tropics_ocean
+tropicraft:tc_tropics_kelp_forest
+tropicraft:tc_tropics
+tropicraft:tc_tropics_rainforest_plains
+tropicraft:tc_tropics_rainforest_hills
+tropicraft:tc_tropics_rainforest_mountains
+tropicraft:tc_tropics_rainforest_island_mountains
+tropicraft:tc_tropics_river
+tropicraft:tc_tropics_beach
+tropicraft:tc_tropics_lake
