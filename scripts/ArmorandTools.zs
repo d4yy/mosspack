@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+#disable_search_tree
 
 
 /*Removes Gem Armour and Tools*/

@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.thermalexpansion.NumisticDynamo;
+#disable_search_tree
 
 ////////////////////// Lapidary Calibration ///////////////////////////////////////////////////////////////////
 

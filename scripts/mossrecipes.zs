@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+#disable_search_tree
 
 /*Seed Oredict Indexing*/
 <ore:listAllseed>.addAll(<ore:seed>);
