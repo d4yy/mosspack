@@ -5,7 +5,7 @@
 	# Entries must have the mod namespace included.
 	# For example: "[minecraft:overworld, minecraft:the_nether, rats:ratlantis]"
 	# Default: "[minecraft:overworld]"
-	"Whitelisted Dimensions" = "[minecraft:overworld]"
+	"Whitelisted Dimensions" = "[minecraft:overworld, minecraft:the_nether]"
 	# Automatically enables Better Caves in every possible dimension.
 	#     If this is enabled, the Whitelisted Dimension IDs option is ignored.
 	# Default: false
@@ -25,7 +25,8 @@
 			#Range: 0.0 ~ 100.0
 			"Cave Spawn Chance" = 100.0
 			# Determines how large cave regions are.
-			#     Controls the average size of a cave system.
+			#     Controls how long a cave system of a certain cave type extends before intersecting with a cave system of another type.
+			#     Larger = more cave interconnectivity for a given area, but less variation.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom
 			# Default: Small (recommended).
 			"Cave Region Size" = "Small"
@@ -150,7 +151,7 @@
 			# Percent chance of caverns spawning in a given region.
 			# Default: caverns spawn in 25% of regions.
 			#Range: 0.0 ~ 100.0
-			"Cavern Spawn Chance" = 25.0
+			"Cavern Spawn Chance" = 5.0
 			# Determines how large cavern regions are. This controls the average size of caverns.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom
 			# Default: Small (recommended).
@@ -285,9 +286,9 @@
 	###########################################################################################################
 	["Better Caves"."Bedrock Generation"]
 		# Replaces the usual bedrock generation pattern with flat layers.
-		#     Activates in all whitelisted dimensions.
+		#     Activates in all whitelisted dimension, where applicable. The End is unaffected.
 		# Default: true
-		"Flatten Bedrock" = true
+		"Flatten Bedrock" = false
 		# The width of the bedrock layer. Only works if Flatten Bedrock is true.
 		#Range: 0 ~ 256
 		"Bedrock Layer Width" = 1
