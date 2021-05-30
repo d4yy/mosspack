@@ -48,7 +48,7 @@
 			# How rare are Jungle Fortresses.
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			jungleFortressMaxChunkDistance = 50
+			jungleFortressMaxChunkDistance = 200
 			#
 			# Add Jungle Fortress to modded jungle biomes.
 			addJungleFortressToModdedBiomes = true
@@ -81,7 +81,7 @@
 			# How rare are Grassy Igloos in Plains and Forests.
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			grassyIglooMaxChunkDistance = 20
+			grassyIglooMaxChunkDistance = 80
 			#
 			# Add Grassy Igloos to modded biomes that are most likely grassy fields or temperate forests.
 			addGrassyIglooToModdedBiomes = true
@@ -89,7 +89,7 @@
 			# How rare are Stone Igloos in Giant Tree Taiga biomes.
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			stoneIglooMaxChunkDistance = 20
+			stoneIglooMaxChunkDistance = 80
 			#
 			# Add Stone Igloos to modded biomes that are most likely Giant Tree Taiga variants.
 			addStoneIglooToModdedBiomes = true
@@ -104,7 +104,7 @@
 			# How rare are End themed Ruined Portals in End category biomes. 1 for spawning in most
 			# chunks and 1001 for none.
 			#Range: 1 ~ 1001
-			ruinedPortalEndMaxChunkDistance = 57
+			ruinedPortalEndMaxChunkDistance = 228
 			#
 			# Add End themed ruined portals to modded End category biomes.
 			addRuinedPortalEndToModdedBiomes = true
@@ -118,7 +118,7 @@
 			#
 			# How rare are Nether Ruins. 1 for spawning in most chunks and 1001 for none.
 			#Range: 1 ~ 1001
-			ruinsNetherMaxChunkDistance = 35
+			ruinsNetherMaxChunkDistance = 140
 			#
 			# Add Nether Ruins to modded Nether category biomes.
 			addRuinsNetherToModdedBiomes = true
@@ -132,7 +132,7 @@
 			#
 			# How rare are Nether Cities. 1 for spawning in most chunks and 1001 for none.
 			#Range: 1 ~ 1001
-			citiesNetherMaxChunkDistance = 120
+			citiesNetherMaxChunkDistance = 480
 			#
 			# Add Nether Cities to modded Nether category biomes.
 			addCitiesNetherToModdedBiomes = true
