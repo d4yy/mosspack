@@ -1,0 +1,30 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+        <planet name="Earth" DIMID="0" dimMapping="">
+            <isKnown>true</isKnown>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <orbitalPhi>0</orbitalPhi>
+            <atmosphereDensity>100</atmosphereDensity>
+			<rotationalPeriod>72000</rotationalPeriod>
+            <planet name="Luna" DIMID="3">
+                <fogColor>1.0,1.0,1.0</fogColor>
+                <skyColor>1.0,1.0,1.0</skyColor>
+				<fillerBlock>minecraft:stone</fillerBlock>
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>150</orbitalDistance>
+                <orbitalTheta>0</orbitalTheta>
+                <orbitalPhi>0</orbitalPhi>
+                <rotationalPeriod>1967112</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <generateVolcanos>false</generateVolcanos>
+                <generateStructures>false</generateStructures>
+                <generateGeodes>false</generateGeodes>
+                <craterFrequencyMultiplier>1.0</craterFrequencyMultiplier>
+                <biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+            </planet>
+        </planet>
+	</star>
+</galaxy>
