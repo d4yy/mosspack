@@ -272,5 +272,5 @@
 ["Mod Options"]
 	#Set this to true if you wish to live life on the edge!
 	#Seriously though it is recommended this only be used for testing purposes!!!
-	bypassPerformantCheck = false
+	bypassPerformantCheck = true
 
