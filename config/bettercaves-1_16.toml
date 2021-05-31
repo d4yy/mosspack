@@ -25,8 +25,7 @@
 			#Range: 0.0 ~ 100.0
 			"Cave Spawn Chance" = 100.0
 			# Determines how large cave regions are.
-			#     Controls how long a cave system of a certain cave type extends before intersecting with a cave system of another type.
-			#     Larger = more cave interconnectivity for a given area, but less variation.
+			#     Controls the average size of a cave system.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom
 			# Default: Small (recommended).
 			"Cave Region Size" = "Small"
@@ -109,7 +108,7 @@
 			["Better Caves"."Underground Generation".Caves."Surface Caves"]
 				# Set to true to enable vanilla-like caves which provide nice, natural-looking openings at the surface.
 				# Default: true
-				"Enable Surface Caves" = true
+				"Enable Surface Caves" = false
 				# The minimum y-coordinate at which surface caves can generate.
 				# Default: 40
 				#Range: 0 ~ 255
@@ -121,7 +120,7 @@
 				# The density of surface caves. Higher = more caves, closer together. 
 				# Default: 17
 				#Range: 0 ~ 100
-				"Surface Cave Density" = 17
+				"Surface Cave Density" = 5
 
 			###########################################################################################################
 			## Settings controlling vanilla Minecraft cave generation.
@@ -279,14 +278,14 @@
 			"Override Surface Detection" = false
 			# Set to true to enable flooded underground in ocean biomes.
 			# Default: true
-			"Enable Flooded Underground" = true
+			"Enable Flooded Underground" = false
 
 	###########################################################################################################
 	## Configure how bedrock generates.
 	###########################################################################################################
 	["Better Caves"."Bedrock Generation"]
 		# Replaces the usual bedrock generation pattern with flat layers.
-		#     Activates in all whitelisted dimension, where applicable. The End is unaffected.
+		#     Activates in all whitelisted dimensions.
 		# Default: true
 		"Flatten Bedrock" = false
 		# The width of the bedrock layer. Only works if Flatten Bedrock is true.
