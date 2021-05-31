@@ -7,16 +7,16 @@
     "hideFromDebug": true,
     "showItem": true,
     "enableTextToSpeech": false,
-    "maxHealthForRender": 40,
-    "maxHeartsPerLine": 10,
-    "displayFluids": false
+    "maxHealthForRender": 1000,
+    "maxHeartsPerLine": 20,
+    "displayFluids": true
   },
   "overlay": {
     "overlayPosX": 0.5,
     "overlayPosY": 0.99,
-    "overlayScale": 1.0,
+    "overlayScale": 1,
     "color": {
-      "alpha": 80,
+      "alpha": 0,
       "themes": [
         {
           "id": "waila:dark",
@@ -37,10 +37,10 @@
     }
   },
   "formatting": {
-    "modName": "\\u00A79\\u00A7o%s",
-    "blockName": "\\u00A7f%s",
-    "fluidName": "\\u00A7f%s",
-    "entityName": "\\u00A7f%s",
-    "registryName": "\\u00A77[%s]"
+    "modName": "\u00A70\u00A79%s",
+    "blockName": "\u00A70\u00A7f%s",
+    "fluidName": "\u00A70\u00A7f%s",
+    "entityName": "\u00A70\u00A7f%s",
+    "registryName": "\u00A78[%s@%d]"
   }
 }
