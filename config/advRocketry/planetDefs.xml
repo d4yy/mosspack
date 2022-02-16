@@ -31,7 +31,7 @@
 			<oceanBlock>minecraft:fluid.lava</oceanBlock>
 			<atmosphereDensity>120</atmosphereDensity>
 			<gravitationalMultiplier>38</gravitationalMultiplier>
-			<orbitalDistance>10</orbitalDistance>
+			<orbitalDistance>40</orbitalDistance>
 			<rotationalPeriod>1400000</rotationalPeriod>
 		</planet>
 		<planet name="Venus" DIMID="102" customIcon="venusian">
@@ -41,7 +41,7 @@
 			<oceanBlock>nuclearcraft:fluid.sulfuric_acid</oceanBlock>
 			<atmosphereDensity>120</atmosphereDensity>
 			<gravitationalMultiplier>90</gravitationalMultiplier>
-			<orbitalDistance>40</orbitalDistance>
+			<orbitalDistance>72</orbitalDistance>
 			<rotationalPeriod>2784000</rotationalPeriod>
 		</planet>
 		<planet name="Mars" DIMID="103" customIcon="marslike">
@@ -49,7 +49,7 @@
             <skyColor>1,0.2,0</skyColor>
 			<fogColor>0.9,0.6,0.1</fogColor>
 			<atmosphereDensity>0</atmosphereDensity>
-			<orbitalDistance>120</orbitalDistance>
+			<orbitalDistance>150</orbitalDistance>
 			<gravitationalMultiplier>70</gravitationalMultiplier>
 			<rotationalPeriod>20000</rotationalPeriod>
 		</planet>
@@ -57,7 +57,7 @@
             <GasGiant>true</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
-			<orbitalDistance>120</orbitalDistance>
+			<orbitalDistance>520</orbitalDistance>
 			<rotationalPeriod>9900</rotationalPeriod>
 			<planet name="Io" DIMID="105" customIcon="moon">
 				<atmosphereDensity>0</atmosphereDensity>
@@ -79,7 +79,7 @@
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<hasRings>true</hasRings>
-			<orbitalDistance>130</orbitalDistance>
+			<orbitalDistance>950</orbitalDistance>
 			<rotationalPeriod>10600</rotationalPeriod>
 			<planet name="Titan" DIMID="108" customIcon="moon">
 				<atmosphereDensity>0</atmosphereDensity>
@@ -94,7 +94,7 @@
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<atmosphereDensity>0</atmosphereDensity>
-			<orbitalDistance>300</orbitalDistance>
+			<orbitalDistance>1980</orbitalDistance>
 			<gravitationalMultiplier>200</gravitationalMultiplier>
 			<rotationalPeriod>17250</rotationalPeriod>
         </planet>
@@ -102,7 +102,7 @@
 		   <GasGiant>true</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
-			<orbitalDistance>350</orbitalDistance>
+			<orbitalDistance>3000</orbitalDistance>
 			<gravitationalMultiplier>200</gravitationalMultiplier>
 			<rotationalPeriod>21100</rotationalPeriod>
         </planet>
