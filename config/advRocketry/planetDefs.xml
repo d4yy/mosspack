@@ -33,6 +33,7 @@
 			<gravitationalMultiplier>38</gravitationalMultiplier>
 			<orbitalDistance>40</orbitalDistance>
 			<rotationalPeriod>1400000</rotationalPeriod>
+			<orbitalTheta>70</orbitalTheta>
 		</planet>
 		<planet name="Venus" DIMID="102" customIcon="venusian">
 		    <biomeIds>biomesoplenty:volcanic_island</biomeIds>
@@ -43,9 +44,11 @@
 			<gravitationalMultiplier>90</gravitationalMultiplier>
 			<orbitalDistance>72</orbitalDistance>
 			<rotationalPeriod>2784000</rotationalPeriod>
+			<orbitalTheta>180</orbitalTheta>
 		</planet>
 		<planet name="Mars" DIMID="103" customIcon="marslike">
 			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+			<orbitalTheta>60</orbitalTheta>
             <skyColor>1,0.2,0</skyColor>
 			<fogColor>0.9,0.6,0.1</fogColor>
 			<atmosphereDensity>0</atmosphereDensity>
@@ -57,14 +60,9 @@
             <GasGiant>true</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
-			<orbitalDistance>520</orbitalDistance>
+			<orbitalDistance>260</orbitalDistance>
 			<rotationalPeriod>9900</rotationalPeriod>
-			<planet name="Io" DIMID="105" customIcon="moon">
-				<atmosphereDensity>0</atmosphereDensity>
-				<gravitationalMultiplier>300</gravitationalMultiplier>
-				<orbitalDistance>180</orbitalDistance>
-				<rotationalPeriod>10000</rotationalPeriod>
-            </planet>
+			<orbitalTheta>270</orbitalTheta>
 			<planet name="Europa" DIMID="106" customIcon="waterworld">
 				<biomeIds>minecraft:frozen_ocean</biomeIds>
 				<atmosphereDensity>0</atmosphereDensity>
@@ -79,30 +77,25 @@
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<hasRings>true</hasRings>
-			<orbitalDistance>950</orbitalDistance>
+			<orbitalDistance>475</orbitalDistance>
 			<rotationalPeriod>10600</rotationalPeriod>
-			<planet name="Titan" DIMID="108" customIcon="moon">
-				<atmosphereDensity>0</atmosphereDensity>
-				<gravitationalMultiplier>250</gravitationalMultiplier>
-				<orbitalDistance>250</orbitalDistance>
-				<orbitalPhi>120</orbitalPhi>
-				<rotationalPeriod>12000</rotationalPeriod>
-			</planet>
+			<orbitalTheta>180</orbitalTheta>
         </planet>
 		<planet name="Uranus" DIMID="109" customIcon="iceworld">
 		    <GasGiant>true</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<atmosphereDensity>0</atmosphereDensity>
-			<orbitalDistance>1980</orbitalDistance>
+			<orbitalDistance>890</orbitalDistance>
 			<gravitationalMultiplier>200</gravitationalMultiplier>
 			<rotationalPeriod>17250</rotationalPeriod>
+			<orbitalTheta>240</orbitalTheta>
         </planet>
 		<planet name="Neptune" DIMID="110" customIcon="gasgiantblue">
 		   <GasGiant>true</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
-			<orbitalDistance>3000</orbitalDistance>
+			<orbitalDistance>1500</orbitalDistance>
 			<gravitationalMultiplier>200</gravitationalMultiplier>
 			<rotationalPeriod>21100</rotationalPeriod>
         </planet>
